@@ -7,13 +7,15 @@
 //
 
 #import "TYAppDelegate.h"
+#import "TYViewController.h"
 
 @implementation TYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    TYViewController *viewControlller = [[TYViewController alloc] init];
+    self.window.rootViewController = viewControlller;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

@@ -19,6 +19,14 @@
 		78C6777318D1C906002DBD5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C6775B18D1C906002DBD5F /* UIKit.framework */; };
 		78C6777B18D1C906002DBD5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C6777918D1C906002DBD5F /* InfoPlist.strings */; };
 		78C6777D18D1C906002DBD5F /* StrategyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6777C18D1C906002DBD5F /* StrategyPatternTests.m */; };
+		78C6778818D1D031002DBD5F /* TYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6778718D1D031002DBD5F /* TYViewController.m */; };
+		78C6778B18D1D233002DBD5F /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6778A18D1D233002DBD5F /* Camera.m */; };
+		78C6779018D1DBDA002DBD5F /* ShutterBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6778F18D1DBDA002DBD5F /* ShutterBehavior.m */; };
+		78C6779418D1DD02002DBD5F /* AE-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6779318D1DD02002DBD5F /* AE-1.m */; };
+		78C6779718D1DDC1002DBD5F /* Half_Electronic.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6779618D1DDC1002DBD5F /* Half_Electronic.m */; };
+		78C6779A18D1E489002DBD5F /* Machinery.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6779918D1E489002DBD5F /* Machinery.m */; };
+		78C6779D18D1E494002DBD5F /* Electronic.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6779C18D1E494002DBD5F /* Electronic.m */; };
+		78C677A018D1E4C3002DBD5F /* D7000.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C6779F18D1E4C3002DBD5F /* D7000.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,22 @@
 		78C6777818D1C906002DBD5F /* StrategyPatternTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StrategyPatternTests-Info.plist"; sourceTree = "<group>"; };
 		78C6777A18D1C906002DBD5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78C6777C18D1C906002DBD5F /* StrategyPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternTests.m; sourceTree = "<group>"; };
+		78C6778618D1D031002DBD5F /* TYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewController.h; sourceTree = "<group>"; };
+		78C6778718D1D031002DBD5F /* TYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewController.m; sourceTree = "<group>"; };
+		78C6778918D1D233002DBD5F /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		78C6778A18D1D233002DBD5F /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		78C6778E18D1DBDA002DBD5F /* ShutterBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShutterBehavior.h; sourceTree = "<group>"; };
+		78C6778F18D1DBDA002DBD5F /* ShutterBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShutterBehavior.m; sourceTree = "<group>"; };
+		78C6779218D1DD02002DBD5F /* AE-1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AE-1.h"; sourceTree = "<group>"; };
+		78C6779318D1DD02002DBD5F /* AE-1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AE-1.m"; sourceTree = "<group>"; };
+		78C6779518D1DDC1002DBD5F /* Half_Electronic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Half_Electronic.h; sourceTree = "<group>"; };
+		78C6779618D1DDC1002DBD5F /* Half_Electronic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Half_Electronic.m; sourceTree = "<group>"; };
+		78C6779818D1E489002DBD5F /* Machinery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Machinery.h; sourceTree = "<group>"; };
+		78C6779918D1E489002DBD5F /* Machinery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Machinery.m; sourceTree = "<group>"; };
+		78C6779B18D1E494002DBD5F /* Electronic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Electronic.h; sourceTree = "<group>"; };
+		78C6779C18D1E494002DBD5F /* Electronic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Electronic.m; sourceTree = "<group>"; };
+		78C6779E18D1E4C3002DBD5F /* D7000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D7000.h; sourceTree = "<group>"; };
+		78C6779F18D1E4C3002DBD5F /* D7000.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D7000.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +133,9 @@
 			children = (
 				78C6776618D1C906002DBD5F /* TYAppDelegate.h */,
 				78C6776718D1C906002DBD5F /* TYAppDelegate.m */,
+				78C6778618D1D031002DBD5F /* TYViewController.h */,
+				78C6778718D1D031002DBD5F /* TYViewController.m */,
+				78C6778C18D1D238002DBD5F /* Camera Class */,
 				78C6776918D1C906002DBD5F /* Images.xcassets */,
 				78C6775E18D1C906002DBD5F /* Supporting Files */,
 			);
@@ -142,6 +169,35 @@
 				78C6777918D1C906002DBD5F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78C6778C18D1D238002DBD5F /* Camera Class */ = {
+			isa = PBXGroup;
+			children = (
+				78C6778918D1D233002DBD5F /* Camera.h */,
+				78C6778A18D1D233002DBD5F /* Camera.m */,
+				78C6779218D1DD02002DBD5F /* AE-1.h */,
+				78C6779318D1DD02002DBD5F /* AE-1.m */,
+				78C6779E18D1E4C3002DBD5F /* D7000.h */,
+				78C6779F18D1E4C3002DBD5F /* D7000.m */,
+				78C6779118D1DC64002DBD5F /* Shutter */,
+			);
+			name = "Camera Class";
+			sourceTree = "<group>";
+		};
+		78C6779118D1DC64002DBD5F /* Shutter */ = {
+			isa = PBXGroup;
+			children = (
+				78C6778E18D1DBDA002DBD5F /* ShutterBehavior.h */,
+				78C6778F18D1DBDA002DBD5F /* ShutterBehavior.m */,
+				78C6779518D1DDC1002DBD5F /* Half_Electronic.h */,
+				78C6779618D1DDC1002DBD5F /* Half_Electronic.m */,
+				78C6779818D1E489002DBD5F /* Machinery.h */,
+				78C6779918D1E489002DBD5F /* Machinery.m */,
+				78C6779B18D1E494002DBD5F /* Electronic.h */,
+				78C6779C18D1E494002DBD5F /* Electronic.m */,
+			);
+			name = Shutter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C6778B18D1D233002DBD5F /* Camera.m in Sources */,
+				78C6779718D1DDC1002DBD5F /* Half_Electronic.m in Sources */,
+				78C6779418D1DD02002DBD5F /* AE-1.m in Sources */,
+				78C677A018D1E4C3002DBD5F /* D7000.m in Sources */,
 				78C6776418D1C906002DBD5F /* main.m in Sources */,
 				78C6776818D1C906002DBD5F /* TYAppDelegate.m in Sources */,
+				78C6778818D1D031002DBD5F /* TYViewController.m in Sources */,
+				78C6779A18D1E489002DBD5F /* Machinery.m in Sources */,
+				78C6779018D1DBDA002DBD5F /* ShutterBehavior.m in Sources */,
+				78C6779D18D1E494002DBD5F /* Electronic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
