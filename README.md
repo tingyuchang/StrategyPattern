@@ -3,7 +3,7 @@ StrategyPattern
 
 This project is practice for Design Pattern: Strategy Pattern.
 
-In this case, I set a 'Camera' class as superclass.
+In this case, I set a 'Camera' as superclass.
 
 So, there are many subclass: Canon ae-1, Olympus OM-1, Nikon FM2, Sony A7...
 
